@@ -59,6 +59,7 @@ export default function RootLayout({
             'https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', '904643748902958');
             fbq('track', 'PageView');
+            fbq('trackCustom', 'BookedCall');
           `}
         </Script>
         {children}
